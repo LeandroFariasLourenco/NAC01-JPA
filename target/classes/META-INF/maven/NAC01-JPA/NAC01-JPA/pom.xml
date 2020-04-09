@@ -16,4 +16,19 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.12.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>oracle</groupId>
+			<artifactId>jdbc-driver</artifactId>
+			<version>8</version>
+			<scope>system</scope>
+			<systemPath>C://Users/Leand/Downloads/ojdbc8.jar</systemPath>
+		</dependency>
+	</dependencies>
 </project>
