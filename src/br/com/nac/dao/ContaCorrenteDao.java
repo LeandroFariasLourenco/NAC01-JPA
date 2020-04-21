@@ -1,5 +1,7 @@
 package br.com.nac.dao;
 
-public interface ContaCorrenteDao {
+import br.com.nac.entity.ContaCorrente;
+
+public interface ContaCorrenteDao extends GenericDao<ContaCorrente,Integer>{
 
 }

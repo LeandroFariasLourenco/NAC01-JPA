@@ -1,5 +1,7 @@
 package br.com.nac.dao;
 
-public interface ServicosDao {
+import br.com.nac.entity.Servico;
+
+public interface ServicosDao extends GenericDao<Servico,Integer>{
 
 }

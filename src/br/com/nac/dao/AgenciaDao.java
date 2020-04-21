@@ -1,5 +1,7 @@
 package br.com.nac.dao;
 
-public interface AgenciaDao {
+import br.com.nac.entity.Agencia;
+
+public interface AgenciaDao extends GenericDao<Agencia,Integer>{
 
 }
